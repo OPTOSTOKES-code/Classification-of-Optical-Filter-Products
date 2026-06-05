@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Optical Filter Selection Preview | OPTOStokes Resources</title>
+  <meta name="description" content="A public OPTOStokes optical filter selection preview for bandpass, fluorescence, IR, dichroic, edge, window, and lens catalog directions.">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="https://www.optofilters.com/" rel="noopener noreferrer">
+      <span class="brand-mark">OS</span>
+      <span>
+        <strong>OPTOStokes</strong>
+        <small>Public optical filter notes</small>
+      </span>
+    </a>
+    <nav class="top-nav" aria-label="Primary navigation">
+      <a href="#applications">Applications</a>
+      <a href="#spectrum">Spectrum</a>
+      <a href="#models">Models</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Engineering preview</p>
+        <h1>Find the optical filter direction before opening a full catalog table.</h1>
+        <p class="lead">Use this public preview to match an application to likely filter families, inspect a few representative models, and decide which OPTOStokes catalog page is worth a deeper review.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#applications">Start by Application</a>
+          <a class="button secondary" href="https://www.optofilters.com/optical-filters-catalog.html" rel="noopener noreferrer">Open Complete Catalog</a>
+        </div>
+      </div>
+
+      <aside class="signal-board" aria-label="Selection preview">
+        <p class="board-title">Quick direction</p>
+        <div class="signal-row">
+          <span>qPCR / Fluorescence</span>
+          <strong>Excitation + Emission + Dichroic</strong>
+        </div>
+        <div class="signal-row">
+          <span>Machine vision / Sensing</span>
+          <strong>Bandpass + Blocking</strong>
+        </div>
+        <div class="signal-row">
+          <span>Thermal / Gas analysis</span>
+          <strong>IR region + Substrate</strong>
+        </div>
+        <div class="signal-row">
+          <span>Beam splitting</span>
+          <strong>AOI + Edge behavior</strong>
+        </div>
+      </aside>
+    </section>
+
+    <section class="repo-note" aria-label="Repository note">
+      <p>This GitHub Pages resource is intentionally limited: no private customer data, no pricing database, no payment flow, no login flow, no hidden redirect, and no lead capture form. Complete specifications and quotation support remain on the OPTOStokes website.</p>
+    </section>
+
+    <section id="applications" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Application paths</p>
+        <h2>What are you building?</h2>
+        <p>Most filter choices become clearer when the system use case is known before the part number search starts.</p>
+      </div>
+
+      <div class="application-grid">
+        <article class="application-card">
+          <span class="card-index">01</span>
+          <h3>qPCR or fluorescence detection</h3>
+          <p>Start with dye channel, excitation band, emission band, dichroic split, and blocking depth.</p>
+          <dl>
+            <div><dt>Likely families</dt><dd>PCR filters, fluorescence sets, biochemical filters</dd></div>
+            <div><dt>Example models</dt><dd>BP543/20, BP565/20, DM565</dd></div>
+          </dl>
+          <a href="https://www.optofilters.com/optical-filters/pcr-optical-filters.html" rel="noopener noreferrer">Review PCR filter catalog</a>
+        </article>
+
+        <article class="application-card">
+          <span class="card-index">02</span>
+          <h3>Machine vision or inspection</h3>
+          <p>Start with illumination wavelength, camera sensitivity, passband width, and leakage risk.</p>
+          <dl>
+            <div><dt>Likely families</dt><dd>Bandpass filters, narrow bandpass filters</dd></div>
+            <div><dt>Example models</dt><dd>STO-BP405, STO-BP450, STO-BP808</dd></div>
+          </dl>
+          <a href="https://www.optofilters.com/optical-filters/bandpass-filters.html" rel="noopener noreferrer">Review bandpass catalog</a>
+        </article>
+
+        <article class="application-card">
+          <span class="card-index">03</span>
+          <h3>MWIR, LWIR, or thermal system</h3>
+          <p>Start with wavelength region, detector response, substrate transmission, and operating environment.</p>
+          <dl>
+            <div><dt>Likely families</dt><dd>IR bandpass, IR wide bandpass, IR longpass, AR coated windows</dd></div>
+            <div><dt>Example models</dt><dd>STO-NBP 2750 500nm, STO-WBP 8000-14000nm</dd></div>
+          </dl>
+          <a href="https://www.optofilters.com/optical-filters/ir-optical-filters.html" rel="noopener noreferrer">Review IR filter catalog</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="spectrum" class="section spectrum-section">
+      <div class="section-heading">
+        <p class="eyebrow">Spectrum map</p>
+        <h2>A quick wavelength-first view</h2>
+        <p>This visual map is not a measurement curve. It is a browsing aid that helps readers decide which product family to inspect next.</p>
+      </div>
+
+      <div class="spectrum-panel" aria-label="Optical spectrum browsing map">
+        <div class="spectrum-track">
+          <span class="band uv">UV</span>
+          <span class="band visible">Visible</span>
+          <span class="band nir">NIR</span>
+          <span class="band swir">SWIR</span>
+          <span class="band mwir">MWIR</span>
+          <span class="band lwir">LWIR</span>
+        </div>
+        <div class="spectrum-notes">
+          <p><strong>Visible and NIR:</strong> common for fluorescence, machine vision, laser cleanup, and analytical channels.</p>
+          <p><strong>MWIR and LWIR:</strong> often require substrate and coating review before the model family can be narrowed.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="models" class="section model-section">
+      <div class="section-heading">
+        <p class="eyebrow">Representative examples</p>
+        <h2>Selected models that invite a deeper catalog review</h2>
+        <p>These examples are intentionally limited. They show the kind of product directions available without turning this public repository into a full catalog copy.</p>
+      </div>
+
+      <div class="model-table-wrap">
+        <table class="model-table">
+          <thead>
+            <tr>
+              <th>Use case</th>
+              <th>Example models</th>
+              <th>What to check next</th>
+              <th>Catalog path</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fluorescence channels</td>
+              <td>BP543/20, BP565/20, DM565</td>
+              <td>Dye channel, OD blocking, matched emission and dichroic path</td>
+              <td><a href="https://www.optofilters.com/optical-filters/pcr-optical-filters.html" rel="noopener noreferrer">PCR filters</a></td>
+            </tr>
+            <tr>
+              <td>Visible bandpass review</td>
+              <td>STO-BP405, STO-BP450, STO-BP808</td>
+              <td>CWL, FWHM, blocking range, size, and customization limits</td>
+              <td><a href="https://www.optofilters.com/optical-filters/bandpass-filters.html" rel="noopener noreferrer">Bandpass filters</a></td>
+            </tr>
+            <tr>
+              <td>MWIR / LWIR filtering</td>
+              <td>STO-NBP 2750 500nm, STO-WBP 8000-14000nm</td>
+              <td>Substrate, operating region, thermal environment, AR coating needs</td>
+              <td><a href="https://www.optofilters.com/optical-filters/ir-optical-filters.html" rel="noopener noreferrer">IR filters</a></td>
+            </tr>
+            <tr>
+              <td>Edge and splitting paths</td>
+              <td>DM565, STO-LP400, STO-SP650N</td>
+              <td>AOI, reflection path, transition edge, pass and block bands</td>
+              <td><a href="https://www.optofilters.com/optical-filters/dichroic-mirrors.html" rel="noopener noreferrer">Dichroic mirrors</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section insight-section">
+      <div class="insight-card">
+        <p class="eyebrow">Engineering note</p>
+        <h2>Why a model name is rarely enough</h2>
+        <p>A filter family can share a wavelength label while differing in FWHM, blocking range, substrate, angle behavior, and mounted size. A useful catalog review normally starts with application context, then moves into the full table.</p>
+      </div>
+      <div class="insight-card">
+        <p class="eyebrow">Continue browsing</p>
+        <h2>Open the complete OPTOStokes catalog</h2>
+        <p>The main catalog contains larger category tables, more model families, and contact paths for quotation review.</p>
+        <div class="link-row">
+          <a href="https://www.optofilters.com/optical-filters-catalog.html" rel="noopener noreferrer">Open full optical filters catalog</a>
+          <a href="https://www.optofilters.com/single/contact-us.html" rel="noopener noreferrer">Contact OPTOStokes</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <p><strong>OPTOStokes Filters</strong></p>
+    <p>Email: <a href="mailto:sales@optofilters.com">sales@optofilters.com</a> | Tel: +852-98828942</p>
+    <p><a href="https://www.optofilters.com/" rel="noopener noreferrer">www.optofilters.com</a></p>
+  </footer>
+</body>
+</html>

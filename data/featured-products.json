@@ -1,0 +1,42 @@
+{
+  "source": "Curated public examples derived from OPTOStokes split-catalog-v1 pages.",
+  "completeCatalogUrl": "https://www.optofilters.com/optical-filters-catalog.html",
+  "categories": [
+    {
+      "name": "Bandpass Filters",
+      "url": "https://www.optofilters.com/optical-filters/bandpass-filters.html",
+      "examples": [
+        { "model": "STO-BP405", "application": "visible bandpass reference" },
+        { "model": "STO-BP450", "application": "machine vision and analytical channels" },
+        { "model": "STO-BP808", "application": "near-infrared sensing and laser-related systems" }
+      ]
+    },
+    {
+      "name": "PCR and Fluorescence Filters",
+      "url": "https://www.optofilters.com/optical-filters/pcr-optical-filters.html",
+      "examples": [
+        { "model": "BP543/20", "application": "CY3 or TAMRA channel planning" },
+        { "model": "BP565/20", "application": "fluorescence emission path review" },
+        { "model": "DM565", "application": "matched dichroic component for fluorescence paths" }
+      ]
+    },
+    {
+      "name": "IR Optical Filters",
+      "url": "https://www.optofilters.com/optical-filters/ir-optical-filters.html",
+      "examples": [
+        { "model": "STO-NBP 2750 500nm", "application": "MWIR narrow bandpass reference" },
+        { "model": "STO-WBP 3100-3800nm Filter", "application": "MWIR wide bandpass reference" },
+        { "model": "STO-WBP 8000-14000nm Filter", "application": "LWIR thermal imaging reference" }
+      ]
+    },
+    {
+      "name": "Dichroic and Edge Filters",
+      "url": "https://www.optofilters.com/optical-filters/dichroic-mirrors.html",
+      "examples": [
+        { "model": "DM565", "application": "45-degree dichroic mirror reference" },
+        { "model": "STO-LP400", "application": "visible longpass edge filter reference" },
+        { "model": "STO-SP650N", "application": "shortpass filter family reference" }
+      ]
+    }
+  ]
+}
